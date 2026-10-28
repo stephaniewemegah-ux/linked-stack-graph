@@ -1,0 +1,26 @@
+===== LINKED STACK DEMO =====
+New stack empty? true
+After push 10, 20, 30: TOP -> 30 -> 20 -> 10 -> null   (size = 3)
+peek() = 30
+pop()  = 30
+After pop: TOP -> 20 -> 10 -> null   (size = 2)
+Reverse "STACK" using the stack: KCATS
+Error caught: Stack is empty
+
+===== GRAPH DEMO =====
+Adjacency list:
+  0 -> [1, 2]
+  1 -> [0, 3]
+  2 -> [0, 3]
+  3 -> [1, 2, 4]
+  4 -> [3]
+  5 -> []
+  (V = 6, E = 5)
+BFS from 0: [0, 1, 2, 3, 4]
+DFS from 0: [0, 1, 3, 2, 4]
+hasEdge(1, 3) = true
+degree(3)     = 3
+hasPath(0, 4) = true
+hasPath(0, 5) = false
+After removeEdge(3, 4), hasPath(0, 4) = false
+Error caught: No such vertex: 9
